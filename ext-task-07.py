@@ -5,7 +5,7 @@
 # This block prompts user to input a number
 number = int(input("Please enter a number between 10 & 20: "))
 
-# This block checks the user input against the range for a valid number
+# This block checks the user input against the range for a valid number and prints output to screen
 if number >= 10 and number <= 20:
     print("Thank you, you chose number", number)
 else:
