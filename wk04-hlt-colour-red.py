@@ -1,6 +1,6 @@
-# This program takes user input and returns output to screen
-#
-#
+# Ian Tolfrey
+# 12/07/2022
+# This program checks user input with the or operator
 
 # This block asks for user input and defines the variable
 colour = input("What is your favorite colour?")
