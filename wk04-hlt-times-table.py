@@ -2,7 +2,7 @@
 # 05-07-2022
 # This program generates a times table for the user
 
-# This block defines the subprograms and runs the users selected times table
+# This block defines the subprograms
 def times2():
     print("\n*** 2 TIMES TABLE ***")
     num1=1
