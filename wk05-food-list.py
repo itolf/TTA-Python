@@ -1,6 +1,10 @@
-# Ian Tolfrey
-# 12/07/2022
-# This program prints and item from a python list
+'''
+Ian Tolfrey
+12/07/2022
+This program prints and item from a python list
+'''
+
+print ('\033[40m' + "\n\t<<<<••••  FOOD LIST  ••••>>>>\n" + '\033[0m')
 
 import random
 
@@ -13,3 +17,5 @@ print(number)
 print("\nI chose: ",food[number])
 #another way is to use the random.choice(food)
 print("or you could have: ",random.choice(food))
+
+print('\033[40m' + "\n\t<<•• END OF PROGRAM ••>>\n" + '\033[0m')

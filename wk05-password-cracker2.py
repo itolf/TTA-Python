@@ -4,7 +4,7 @@ Ian Tolfrey
 This program takes an alphanumerical password and cracks it
 '''
 
-print ("\n\t ##### Welcome to the password cracker #####\n")
+print ('\033[40m' + "\n\t<<<<••••  PASSWORD CRACKER  ••••>>>>\n" + '\033[0m')
 
 userPass = input("\n\t Please enter your password: ") # taking input from user
 
@@ -31,4 +31,4 @@ for i in range(0,len(userPass)): #loops for the length of the password
 print ("\nyour password is ",*passw,sep="") # prints out the passw removing ""
 #print ("your password is ",passw)
 
-print("\n\t*** END OF PROGRAM ***")
+print('\033[40m' + "\n\t<<•• END OF PROGRAM ••>>\n" + '\033[0m')

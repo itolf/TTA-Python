@@ -1,6 +1,10 @@
-# Ian Tolfrey
-# 12/07/2022
-# This program is a randomised password cracker
+'''
+Ian Tolfrey
+12/07/2022
+This program is a randomised password cracker
+'''
+
+print ('\033[40m' + "\n\t<<<<••••  RANDOMISATION PASSWORD CRACKER  ••••>>>>\n" + '\033[0m')
 
 import random
 
@@ -30,3 +34,5 @@ while (guess != user_pass):
 
 # printing the matched password
 print("\n Your password is ",guess)
+
+print('\033[40m' + "\n\t<<•• END OF PROGRAM ••>>\n" + '\033[0m')

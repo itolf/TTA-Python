@@ -1,6 +1,10 @@
-# Ian Tolfrey
-# 13/07/2022
-# String manipulation and validation
+'''
+Ian Tolfrey
+13/07/2022
+String manipulation and validation
+'''
+
+print ('\033[40m' + "\n\t<<<<••••  STRING MANIPULATION  ••••>>>>\n" + '\033[0m')
 
 word=input("\nPlease enter a string of words: ") # requesting user entered string
 
@@ -17,8 +21,11 @@ print(word.isdigit()) # checks the string for numberical characters
 print() # blank line
 print(word.isalpha()) # checks the string for alpha characters
 
-findme=input("\nwhat letter to you want to find? ") # asks user to input a word to find
+findme=input("\nWhat letter to you want to find? ") # asks user to input a word to find
 if word.find(findme)<0:
   print ("sorry letter not found")
 else:
   print("letter is at position : ",word.find(findme))
+
+
+print('\033[40m' + "\n\t<<•• END OF PROGRAM ••>>\n" + '\033[0m')
