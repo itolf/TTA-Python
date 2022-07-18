@@ -1,7 +1,7 @@
 '''
 Ian Tolfrey
 16/07/2022
-description
+This program asks for users name and changes the case depening on the name length
 '''
 
 print ('\033[40m' + "\n\t<<<<••••  NAME CASE CHANGER  ••••>>>>\n" + '\033[0m')
